@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    height: 70px;
+    background-color: #04899e;
+
+}
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    animation: fadeInDown 1s ease;
+}
+
+.block {
+    border: 1px solid rgb(49, 49, 49);
+    height: 1000px;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
